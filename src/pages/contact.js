@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
+import Layout from "../components/Layout"
+
 
 export default class contact extends Component {
   render() {
     return (
-      <div>contact</div>
+      <Layout>
+        <p>contact</p>
+      </Layout>
     )
   }
 }
