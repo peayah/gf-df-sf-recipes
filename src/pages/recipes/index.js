@@ -3,10 +3,11 @@ import Layout from '../../components/Layout'
 
 const index = () => {
   return (
-   
     <Layout>
-      <h1>Recipes</h1>
-      </Layout>
+      <main className='page'>
+      <h2>Recipes</h2>
+      </main>
+    </Layout>
   )
 }
 
