@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import Navbar from "./Navbar"
 import Footer from "./Footer"
-// import "normalize.css"
+import "../assets/css/normalize.css"
 import "../assets/css/main.css"
 
 
@@ -10,7 +10,7 @@ const Layout = ({children}) => {
       <>
     <Navbar/>
     { children }
-    <Footetr/>
+    <Footer/>
     </>
   )
 }

@@ -2,7 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="page-footer">
+      <p>
+        &copy; {new Date().getFullYear()}<span>My Favorite GF, DF and SF Recipes. </span>
+        </p> 
+    </footer>
   )
 }
 
