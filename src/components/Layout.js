@@ -1,15 +1,16 @@
 import React, { Fragment } from 'react'
 import Navbar from "./Navbar"
 import Footer from "./Footer"
+// import "normalize.css"
 import "../assets/css/main.css"
-import "normalize.css"
+
 
 const Layout = ({children}) => {
   return (
       <>
     <Navbar/>
     { children }
-    <Footer/>
+    <Footetr/>
     </>
   )
 }
