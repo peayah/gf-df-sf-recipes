@@ -22,6 +22,13 @@ module.exports = {
         name: `images`,
         path:`${__dirname}/src/assets/images/`
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `ducdfztnqg14`,
+        accessToken: process.env.CONTENTFUL_API_KEY
+      }
+    },
   ],
 }
