@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout'
-import AllRecipies from '../../components/allRecipies'
+import AllRecipes from '../../components/allRecipes'
 
 const index = () => {
 
@@ -8,7 +8,7 @@ const index = () => {
     <Layout>
       <main className='page'>
       <h2>Recipes</h2>
-      <AllRecipies/>
+      <AllRecipes/>
       </main>
     </Layout>
   )
