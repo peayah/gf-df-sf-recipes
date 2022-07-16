@@ -10,13 +10,18 @@ module.exports = {
     title: "my favorite recipes",
     description: "gluten free, dairy free and soy free recipes that are easy to make",
     author: "pia",
-    
-
-  }
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`, 
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path:`${__dirname}/src/assets/images/`
+      }
+    }
   ],
 }
