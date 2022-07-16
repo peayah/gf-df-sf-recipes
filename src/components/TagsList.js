@@ -2,7 +2,7 @@ import React from 'react';
 
 const TagsList = () => {
   return (
-    <div>TagsList</div>
+    <div>Tags List</div>
   )
 }
 

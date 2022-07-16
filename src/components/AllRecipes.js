@@ -2,17 +2,17 @@ import React from 'react';
 import TagsList from "./TagsList";
 import RecipesList from './RecipesList';
 import { graphql, useStaticQuery } from 'gatsby';
+
 const query = graphql`
   {
     allContentfulRecipies {
       nodes {
-        id
         title
+        id
         cooktime
+        featured
+        servings
         preptime
-        content {
-          tags
-        }
         image {
           gatsbyImageData(placeholder: TRACED_SVG, layout: CONSTRAINED)
         }
@@ -21,15 +21,17 @@ const query = graphql`
   }
 `
 
+
 const AllRecipes = () => {
   const data = useStaticQuery(query);
-  console.log(data)
+  const recipes = data.allContentfulRecipies.nodes;
+  
   return (
-    <div>
+    <section className="recipes-container">
       <h1>All Recipes</h1>
-      <RecipesList/>
-      <TagsList/>
-    </div>
+      <TagsList  recipes={recipes}/>
+      <RecipesList recipes={recipes}/>
+    </section>
   )
 }
 

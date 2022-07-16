@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout'
-import AllRecipes from '../../components/allRecipes'
+import AllRecipes from '../../components/AllRecipes'
 
 const index = () => {
 
