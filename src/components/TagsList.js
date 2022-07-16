@@ -1,7 +1,4 @@
-import React from 'react'
-import Featured from "./Featured"
-import TagsList from "./TagsList"
-
+import React from 'react';
 
 const TagsList = () => {
   return (

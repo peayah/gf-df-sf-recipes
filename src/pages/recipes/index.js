@@ -3,6 +3,7 @@ import Layout from '../../components/Layout'
 import AllRecipies from '../../components/allRecipies'
 
 const index = () => {
+
   return (
     <Layout>
       <main className='page'>
