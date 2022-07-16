@@ -1,5 +1,11 @@
 const setupTags = recipes => {
-    console.log("hello from utils")
+    const allTags = {};
+    recipes.forEach(recipe => {
+        recipe.content.tags.forEach(tag => {
+            console.log(tag)
+        })
+    })  
+            
     return recipes
 }
 
