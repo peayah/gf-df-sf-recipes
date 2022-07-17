@@ -20,13 +20,15 @@ const Contact = ({data:{allContentfulRecipies:{nodes:recipes}}}) => {
               <label htmlFor = "name">Name</label>
               <input type = "text" name = "name" id = "name"/>
             </div>
+
             <div className = "form-row">
               <label htmlFor = "email">Email</label>
               <input type = "text" email = "email" id = "email"/>
             </div>
+            
             <div className = "form-row">
               <label htmlFor = "message">Message</label>
-              <textare name = "message" id = "message" cols = "30" rows = "10"/>
+              <textarea name = "message" id = "message" cols = "30" rows = "10"/>
             </div>
             <button type = "submit" className='btn block'>Submit</button>
           </form>
