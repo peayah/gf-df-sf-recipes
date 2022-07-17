@@ -8,8 +8,9 @@ const RecipesList = ({recipes = []}) => {
   <div className='recipes-list'>{
       recipes.map(recipe => {
         const {id, title, image, preptime, cooktime} = recipe;
-        const pathToImage = getImage(image)
-        return <Link key = {id} to={`/${title}`} className="recipe">
+        const pathToImage = getImage(image);
+        const slug = slugify(title, {lower: true});
+        return <Link key = {id} to={`/${slug}`} className="recipe">
             <GatsbyImage
             image={pathToImage}
             className="recipe-img"
