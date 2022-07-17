@@ -15,7 +15,7 @@ const Contact = ({data:{allContentfulRecipies:{nodes:recipes}}}) => {
             <p>some text</p>
         </article>
         <article>
-          <form action = "" className = "form contact-form">
+          <form action="https://formspree.io/f/xnqwenqg" method="POST" className = "form contact-form">
             <div className = "form-row">
               <label htmlFor = "name">Name</label>
               <input type = "text" name = "name" id = "name"/>
