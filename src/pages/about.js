@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import { StaticImage} from "gatsby-plugin-image";
-import {Link, graphql} from 'gatsby';
+import {graphql} from 'gatsby';
 import RecipesList from "../components/RecipesList"
 
 const About = ({data:{allContentfulRecipies:{nodes:recipes}}}) => {
