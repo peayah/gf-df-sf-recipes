@@ -9,10 +9,9 @@ const Contact = ({data:{allContentfulRecipies:{nodes:recipes}}}) => {
       <main className='page'>
         <section className='contact-page'>
         <article className='contact-info'>
-          <h2>Got a question?</h2>
-            <p>some text</p>
-            <p>some text</p>
-            <p>some text</p>
+          <h2>Got something to say?</h2>
+            <p>Let me know if you have a question or comment.</p>
+            
         </article>
         <article>
           <form action="https://formspree.io/f/xnqwenqg" method="POST" className = "form contact-form">
@@ -28,7 +27,7 @@ const Contact = ({data:{allContentfulRecipies:{nodes:recipes}}}) => {
             
             <div className = "form-row">
               <label htmlFor = "message">Message</label>
-              <textarea name = "message" id = "message" cols = "30" rows = "10"/>
+              <textarea name = "message" id = "message" cols = "30" rows = "5"/>
             </div>
             <button type = "submit" className='btn block'>Submit</button>
           </form>
