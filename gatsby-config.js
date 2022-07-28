@@ -14,6 +14,7 @@ module.exports = {
     title: "my favorite recipes",
     description: "gluten free, dairy free and soy free recipes that are easy to make",
     author: "pia",
+    pathPrefix: "/gf-df-sf-recipes",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -32,7 +33,12 @@ module.exports = {
       options: {
         spaceId: `ducdfztnqg14`,
         accessToken: process.env.CONTENTFUL_API_KEY
-      }
+      },
+
+      "scripts": {
+          "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+
+    },   
     },
   ],
 }
