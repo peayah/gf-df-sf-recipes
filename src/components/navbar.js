@@ -23,21 +23,21 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link to="/about" 
+            <Link to="/gf-df-sf-recipes/about" 
             className='nav-link' 
             activeClassName='active-link' 
             onClick={() => setShow(false)}
             >
               About
             </Link>
-            <Link to="/contact" 
+            <Link to="/gf-df-sf-recipes/contact" 
             className='nav-link' 
             activeClassName='active-link' 
             onClick={() => setShow(false)}
             >
               Contact
             </Link>
-            <Link to="/recipes/" 
+            <Link to="/gf-df-sf-recipes/recipes/" 
             className='nav-link' 
             activeClassName='active-link' 
             onClick={() => setShow(false)}
