@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className={show ? 'nav-links show-links' : "nav-links"}
         >
-            <Link to="/" 
+            <Link to="/gf-df-sf-recipes/" 
             className='nav-link' 
             activeClassName='active-link'
             onClick={() => setShow(false)}
