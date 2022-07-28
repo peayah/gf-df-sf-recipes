@@ -33,12 +33,7 @@ module.exports = {
       options: {
         spaceId: `ducdfztnqg14`,
         accessToken: process.env.CONTENTFUL_API_KEY
-      },
-
-      "scripts": {
-          "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-
-    },   
+      }, 
     },
   ],
 }
