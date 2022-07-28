@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className="nav-center">
         <div className="nav-header">
-          <Link to ="/">
+          <Link to ="/gf-df-sf-recipes/">
             <img src = { logo } alt ="favorite recipes"/>
           </Link> 
           <button className='nav-btn' onClick={() => setShow(!show)}>
