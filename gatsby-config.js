@@ -17,6 +17,7 @@ module.exports = {
     pathPrefix: `/gf-df-sf-recipes`,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
