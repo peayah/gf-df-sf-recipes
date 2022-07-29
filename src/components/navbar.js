@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className="nav-center">
         <div className="nav-header">
-          <Link to ="/gf-df-sf-recipes/">
+          <Link to ="/">
             <img src = { logo } alt ="favorite recipes"/>
           </Link> 
           <button className='nav-btn' onClick={() => setShow(!show)}>
@@ -16,28 +16,28 @@ const Navbar = () => {
         </div>
         <div className={show ? 'nav-links show-links' : "nav-links"}
         >
-            <Link to="/gf-df-sf-recipes/" 
+            <Link to="/" 
             className='nav-link' 
             activeClassName='active-link'
             onClick={() => setShow(false)}
             >
               Home
             </Link>
-            <Link to="/gf-df-sf-recipes/about" 
+            <Link to="/about" 
             className='nav-link' 
             activeClassName='active-link' 
             onClick={() => setShow(false)}
             >
               About
             </Link>
-            <Link to="/gf-df-sf-recipes/contact" 
+            <Link to="/contact" 
             className='nav-link' 
             activeClassName='active-link' 
             onClick={() => setShow(false)}
             >
               Contact
             </Link>
-            <Link to="/gf-df-sf-recipes/recipes/" 
+            <Link to="/recipes/" 
             className='nav-link' 
             activeClassName='active-link' 
             onClick={() => setShow(false)}

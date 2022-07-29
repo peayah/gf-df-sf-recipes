@@ -10,7 +10,7 @@ export default function Home() {
       <main className='page'>
         <header className="hero">
           <StaticImage 
-          src="../assets/images/main-kristina-snowasp.jpg"
+          src="../assets/images/main.jpg"
           placeholder="blurred"
           alt="food ingredients"
           className="hero-img"

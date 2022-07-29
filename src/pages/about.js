@@ -15,7 +15,7 @@ const About = ({data:{allContentfulRecipies:{nodes:recipes}}}) => {
             <p>I guess, I should also warn you that I do not have a sweet tooth, so you'll have to add sugar yourself, if you feel so inclined.</p>
           </article>
           <StaticImage 
-          src="../assets/images/about-image-by-klaus-nielsen.jpg" 
+          src="../assets/images/about.jpg" 
           alt="pasta sauce"
           placeholder="tracedSVG"
           className="about-img"
