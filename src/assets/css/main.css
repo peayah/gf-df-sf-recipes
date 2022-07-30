@@ -206,7 +206,7 @@ button,
     cursor: pointer;
     appearance: none;
     color: var(--white);
-    background: var(--dark-red);
+    background: var(--red-dark);
     border: none;
     border-radius: var(--borderRadius);
     letter-spacing: var(--letterSpacing);
@@ -229,7 +229,7 @@ button.small {
 }
 
 button.hipster {
-    color: var(--dark-red);
+    color: var(--red-dark);
     background: var(--primary-50);
     box-shadow: var(--shadow-1);
 }
@@ -418,7 +418,7 @@ form>*:last-child {
 }
 
 .active-link {
-    color: var(--dark-red);
+    color: var(--red-dark);
 }
 
 .contact-link {
@@ -644,7 +644,7 @@ form>*:last-child {
 }
 
 .tags-list a:hover {
-    color: var(--dark-red);
+    color: var(--red-dark);
 }
 
 .recipe {
@@ -740,7 +740,7 @@ form>*:last-child {
 }
 
 .tag:hover {
-    background: var(--dark-red);
+    background: var(--red-dark);
 }
 
 .tag h5,
@@ -812,7 +812,7 @@ form>*:last-child {
 }
 
 .recipe-tags a {
-    background: var(--dark-red);
+    background: var(--red-dark);
     border-radius: var(--borderRadius);
     color: var(--white);
     padding: 0.05rem 0.5rem;
@@ -849,7 +849,7 @@ form>*:last-child {
 .single-instruction header p {
     text-transform: uppercase;
     font-weight: 600;
-    color: var(--dark-red);
+    color: var(--red-dark);
     margin-bottom: 0;
 }
 
@@ -871,6 +871,6 @@ form>*:last-child {
 .single-tool {
     border-bottom: 1px solid var(--grey-500);
     padding-bottom: 0.75rem;
-    color: var(--dark-red);
+    color: var(--red-dark);
     text-transform: capitalize;
 }
